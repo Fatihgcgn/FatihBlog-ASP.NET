@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj": {}
+    "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj": {}
   },
   "projects": {
-    "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj": {
+    "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj",
         "projectName": "FatihBlog",
-        "projectPath": "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj",
+        "projectPath": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\obj\\",
+        "outputPath": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.11, )"
             }
