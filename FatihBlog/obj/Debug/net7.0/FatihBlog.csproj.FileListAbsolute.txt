@@ -57,3 +57,7 @@ C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\obj\Debug\net7.0\refint\
 C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\obj\Debug\net7.0\FatihBlog.pdb
 C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\obj\Debug\net7.0\FatihBlog.genruntimeconfig.cache
 C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\obj\Debug\net7.0\ref\FatihBlog.dll
+C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\Humanizer.dll
+C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\System.CodeDom.dll
