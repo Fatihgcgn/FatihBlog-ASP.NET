@@ -24030,6 +24030,11 @@
       "FilePath": "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\Views\\Posts\\Index.cshtml",
       "TargetPath": "Views\\Posts\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
