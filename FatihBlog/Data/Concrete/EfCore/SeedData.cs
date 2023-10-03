@@ -46,6 +46,7 @@ namespace FatihBlog.Data.Concrete.EfCore
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
+                            Image = "1.jpg",
                             UserId = 1,
                             },
                             new Post {
@@ -53,6 +54,7 @@ namespace FatihBlog.Data.Concrete.EfCore
                             Content = "Asp.net core projesi",
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-20),
+                            Image = "2.jpg",
                             Tags = context.Tags.Take(2).ToList(),
                             UserId = 1,
                             },
@@ -61,6 +63,7 @@ namespace FatihBlog.Data.Concrete.EfCore
                             Content = "Django projesi",
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-5),
+                            Image = "3.jpg",
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2,
                             }

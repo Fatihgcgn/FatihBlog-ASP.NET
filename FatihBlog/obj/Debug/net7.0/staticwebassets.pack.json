@@ -1,6 +1,46 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\iphone13.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\iphone14pro.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone14pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\samsungs22.jpg",
+      "PackagePath": "staticwebassets\\img\\samsungs22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\xiaomi11pro.png",
+      "PackagePath": "staticwebassets\\img\\xiaomi11pro.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\xiaomi13.png",
+      "PackagePath": "staticwebassets\\img\\xiaomi13.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\img\\xiaomi13lite.png",
+      "PackagePath": "staticwebassets\\img\\xiaomi13lite.png"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
@@ -127,6 +167,10 @@
     {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\123.cs",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\123.cs"
     },
     {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
