@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v7.0": {
       "FatihBlog/1.0.0": {
         "dependencies": {
-          "Microsoft.Data.Sqlite": "7.0.11",
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11"
         },
@@ -22,12 +21,6 @@
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
           }
-        }
-      },
-      "Microsoft.Data.Sqlite/7.0.11": {
-        "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "7.0.11",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.4"
         }
       },
       "Microsoft.Data.Sqlite.Core/7.0.11": {
@@ -356,13 +349,6 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
-    },
-    "Microsoft.Data.Sqlite/7.0.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nPcjkvaq0P0Hg2esYdJKswiMv7rq7Lp/hycPBau1GK6J6u2qMRIWmZ72+YzUbO5VhiUdKrLNS92foi8bly7OCA==",
-      "path": "microsoft.data.sqlite/7.0.11",
-      "hashPath": "microsoft.data.sqlite.7.0.11.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/7.0.11": {
       "type": "package",

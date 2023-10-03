@@ -6,13 +6,11 @@ namespace FatihBlog.Data.Concrete
 {
     public class EfPostRepository : IPostRepository
     {
-        private FatihBlogContext _context;
-
-        public EfPostRepository(FatihBlogContext context)
+        private BlogContext _context;
+        public EfPostRepository(BlogContext context)
         {
-             _context = context;
+            _context = context;
         }
-        
         public IQueryable<Post> Posts => _context.Posts;
 
         public void CreatePost(Post post)

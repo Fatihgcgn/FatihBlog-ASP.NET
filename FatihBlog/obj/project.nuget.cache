@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f8hmA3bwXKEzLLSebk1b2PdZaapyaiQsAx72PhnDsb2HZHeSZ7CUE1SNddzFxoRDVznAayv80OvVYMuMDevP0g==",
+  "dgSpecHash": "t2TSyMEzVtHo126M8RSZQF8FeiDV+huZOf2JsOUHNYHG4gt0Ejz7xHujjOPgrDN3YMEEDY/bPhpNfSyE2XKOuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fatih\\Desktop\\ASP_PROJELER\\FatihBlog\\FatihBlog\\FatihBlog.csproj",
+  "projectFilePath": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\FatihBlog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fatih\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\fatih\\.nuget\\packages\\microsoft.data.sqlite\\7.0.11\\microsoft.data.sqlite.7.0.11.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",

@@ -4,12 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FatihBlog.Controllers
 {
-
     public class PostsController : Controller
     {
         private IPostRepository _repository;
-
-        public PostsController(IPostRepository repository) //inject işlemi
+        public PostsController(IPostRepository repository)
         {
             _repository = repository;
         }
@@ -18,6 +16,4 @@ namespace FatihBlog.Controllers
             return View(_repository.Posts.ToList());
         }
     }
-
-
 }

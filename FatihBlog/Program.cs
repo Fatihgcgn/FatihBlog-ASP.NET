@@ -7,14 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<FatihBlogContext>(options => {
+builder.Services.AddDbContext<BlogContext>(options => {
     options.UseSqlite(builder.Configuration["ConnectionStrings:Sql_connection"]);
 });
 
 builder.Services.AddScoped<IPostRepository, EfPostRepository>();
 
 var app = builder.Build();
-
 
 app.UseStaticFiles();
 
