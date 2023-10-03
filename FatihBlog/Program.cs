@@ -15,6 +15,10 @@ builder.Services.AddScoped<IPostRepository, EfPostRepository>();
 
 var app = builder.Build();
 
+
+app.UseStaticFiles();
+
+
 SeedData.TestVerileriniDoldur(app);
 
 app.MapDefaultControllerRoute();

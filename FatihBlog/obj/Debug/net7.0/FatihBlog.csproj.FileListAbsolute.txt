@@ -63,3 +63,5 @@ C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\Mono.Te
 C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\obj\Debug\net7.0\FatihBlog.RazorAssemblyInfo.cache
 C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\obj\Debug\net7.0\FatihBlog.RazorAssemblyInfo.cs
+C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\libman.json
+C:\Users\fatih\Desktop\ASP_PROJELER\FatihBlog\FatihBlog\bin\Debug\net7.0\FatihBlog.staticwebassets.runtime.json
