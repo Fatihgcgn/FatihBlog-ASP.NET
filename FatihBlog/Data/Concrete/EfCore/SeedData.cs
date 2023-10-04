@@ -31,8 +31,8 @@ namespace FatihBlog.Data.Concrete.EfCore
                 if(!context.Users.Any())
                 {
                     context.Users.AddRange(
-                        new User { UserName = "sadikturan"},
-                        new User { UserName = "ahmetyilmaz"}
+                        new User { UserName = "fatihgecgin"},
+                        new User { UserName = "furkanenes"}
                     );
                     context.SaveChanges();
                 }
@@ -46,6 +46,7 @@ namespace FatihBlog.Data.Concrete.EfCore
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
+                            Image = "1.jpg",
                             UserId = 1
                         },
                         new Post {
@@ -54,6 +55,7 @@ namespace FatihBlog.Data.Concrete.EfCore
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-20),
                             Tags = context.Tags.Take(2).ToList(),
+                            Image = "2.jpg",
                             UserId = 1
                         },
                         new Post {
@@ -62,6 +64,7 @@ namespace FatihBlog.Data.Concrete.EfCore
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-5),
                             Tags = context.Tags.Take(4).ToList(),
+                            Image = "3.jpg",
                             UserId = 2
                         }
                     );
