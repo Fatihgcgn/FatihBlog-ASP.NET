@@ -1,6 +1,50 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\iphone13.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\iphone14pro.jpg",
+      "PackagePath": "staticwebassets\\img\\iphone14pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\samsungs22.jpg",
+      "PackagePath": "staticwebassets\\img\\samsungs22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\xiaomi11pro.png",
+      "PackagePath": "staticwebassets\\img\\xiaomi11pro.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\xiaomi13.png",
+      "PackagePath": "staticwebassets\\img\\xiaomi13.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\xiaomi13lite.png",
+      "PackagePath": "staticwebassets\\img\\xiaomi13lite.png"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.svg",
       "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.svg"
     },
@@ -7963,46 +8007,6 @@
     {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\1.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\2.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\3.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\4.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\iphone13.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\iphone13.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\iphone14pro.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\iphone14pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\samsungs22.jpg",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\samsungs22.jpg"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\xiaomi11pro.png",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\xiaomi11pro.png"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\xiaomi13.png",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\xiaomi13.png"
-    },
-    {
-      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\img\\xiaomi13lite.png",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\img\\xiaomi13lite.png"
     },
     {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
