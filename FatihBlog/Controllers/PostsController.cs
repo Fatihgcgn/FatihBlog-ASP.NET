@@ -1,19 +1,29 @@
 using FatihBlog.Data.Abstract;
 using FatihBlog.Data.Concrete.EfCore;
+using FatihBlog.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FatihBlog.Controllers
 {
     public class PostsController : Controller
     {
-        private IPostRepository _repository;
-        public PostsController(IPostRepository repository)
+        private IPostRepository _postRepository;
+        private ITagRepository _tagRepository;
+
+        public PostsController(IPostRepository postRepository,ITagRepository tagRepository)
         {
-            _repository = repository;
+            _postRepository = postRepository;
+            _tagRepository = tagRepository;
         }
         public IActionResult Index()
         {
-            return View(_repository.Posts.ToList());
+            return View(
+                new PostsViewModel
+                {
+                    Posts = _postRepository.Posts.ToList(),
+                    Tags = _tagRepository.Tags.ToList()
+                }
+            );
         }
     }
 }
