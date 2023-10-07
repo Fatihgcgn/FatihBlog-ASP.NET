@@ -1,5 +1,6 @@
 using FatihBlog.Data.Abstract;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace FatihBlog.ViewComponents
@@ -12,9 +13,9 @@ namespace FatihBlog.ViewComponents
             _tagRepository = tagRepository;
         }
 
-        public IViewComponentResult Invoke()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            return View(_tagRepository.Tags.ToList());
+            return View(await _tagRepository.Tags.ToListAsync());
         }
     }
 }
