@@ -2,6 +2,7 @@ using FatihBlog.Data.Abstract;
 using FatihBlog.Data.Concrete.EfCore;
 using FatihBlog.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FatihBlog.Controllers
 {
@@ -21,6 +22,11 @@ namespace FatihBlog.Controllers
                     Posts = _postRepository.Posts.ToList()
                 }
             );
+        }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            return View(await _postRepository.Posts.FirstOrDefaultAsync(p=>p.PostId == id));
         }
     }
 }
