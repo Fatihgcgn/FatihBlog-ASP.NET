@@ -1,6 +1,7 @@
 using FatihBlog.Data.Abstract;
 using FatihBlog.Data.Concrete;
 using FatihBlog.Data.Concrete.EfCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,16 @@ app.UseStaticFiles();
 
 SeedData.TestVerileriniDoldur(app);
 
-app.MapDefaultControllerRoute();
+
+app.MapControllerRoute(
+    name: "post_details",
+    pattern: "posts/{url}",
+    defaults: new {controller = "Posts", action = "Details" }
+);
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();
