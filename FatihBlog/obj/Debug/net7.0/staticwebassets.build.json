@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "atR8W0q+VyTbXzgpMRcVNSnXjIEcEpGXtb14e9+OV3g=",
+  "Hash": "IczEnigGahKwiv5/gaJ0KUfr18252vXDdHyCYbNMpZo=",
   "Source": "FatihBlog",
   "BasePath": "_content/FatihBlog",
   "Mode": "Default",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\iphone14pro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\p1.jpg",
+      "SourceId": "FatihBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\",
+      "BasePath": "_content/FatihBlog",
+      "RelativePath": "img/p1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\p1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\p2.jpg",
+      "SourceId": "FatihBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\",
+      "BasePath": "_content/FatihBlog",
+      "RelativePath": "img/p2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\p2.jpg"
     },
     {
       "Identity": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\samsungs22.jpg",

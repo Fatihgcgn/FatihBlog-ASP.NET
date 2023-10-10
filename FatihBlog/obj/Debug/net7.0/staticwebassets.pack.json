@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\img\\iphone14pro.jpg"
     },
     {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\p1.jpg",
+      "PackagePath": "staticwebassets\\img\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\p2.jpg",
+      "PackagePath": "staticwebassets\\img\\p2.jpg"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Desktop\\ASP.NET PROJELER\\FatihBlog-ASP.NET\\FatihBlog\\wwwroot\\img\\samsungs22.jpg",
       "PackagePath": "staticwebassets\\img\\samsungs22.jpg"
     },

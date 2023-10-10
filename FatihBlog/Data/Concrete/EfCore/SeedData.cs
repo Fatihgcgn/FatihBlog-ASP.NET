@@ -19,11 +19,11 @@ namespace FatihBlog.Data.Concrete.EfCore
                 if (!context.Tags.Any())
                 {
                     context.Tags.AddRange(
-                        new Tag { Text = "web programlama", Url = "web-programlama",Color= TagColors.warning },
-                        new Tag { Text = "backend", Url = "backend",Color= TagColors.info },
-                        new Tag { Text = "frontend", Url = "frontend",Color= TagColors.success },
-                        new Tag { Text = "fullstack", Url = "fullstack",Color= TagColors.secondary },
-                        new Tag { Text = "php", Url = "php",Color= TagColors.primary }
+                        new Tag { Text = "web programlama", Url = "web-programlama", Color = TagColors.warning },
+                        new Tag { Text = "backend", Url = "backend", Color = TagColors.info },
+                        new Tag { Text = "frontend", Url = "frontend", Color = TagColors.success },
+                        new Tag { Text = "fullstack", Url = "fullstack", Color = TagColors.secondary },
+                        new Tag { Text = "php", Url = "php", Color = TagColors.primary }
                     );
                     context.SaveChanges();
                 }
@@ -31,8 +31,8 @@ namespace FatihBlog.Data.Concrete.EfCore
                 if (!context.Users.Any())
                 {
                     context.Users.AddRange(
-                        new User { UserName = "fatihgecgin" },
-                        new User { UserName = "furkanenes" }
+                        new User { UserName = "fatihgecgin", Image = "p1.jpg" },
+                        new User { UserName = "furkanenes", Image = "p2.jpg" }
                     );
                     context.SaveChanges();
                 }
@@ -49,7 +49,11 @@ namespace FatihBlog.Data.Concrete.EfCore
                             PublishedOn = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
                             Image = "1.jpg",
-                            UserId = 1
+                            UserId = 1,
+                            Comments = new List<Comment> {
+                                new Comment {Text = "iyi bir kurs",PublishedOn = new DateTime(),UserId=1},
+                                new Comment {Text = "güzel faydalı bir kurs",PublishedOn = new DateTime(),UserId=2}
+                                }
                         },
                         new Post
                         {
