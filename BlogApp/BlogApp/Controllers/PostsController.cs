@@ -21,12 +21,12 @@ namespace BlogApp.Controllers
         {
             var posts = _postRepository.Posts;
 
-            if(!string.IsNullOrEmpty(tag))
+            if (!string.IsNullOrEmpty(tag))
             {
                 posts = posts.Where(x => x.Tags.Any(t => t.Url == tag));
             }
 
-            return View( new PostsViewModel { Posts = await posts.ToListAsync() });
+            return View(new PostsViewModel { Posts = await posts.ToListAsync() });
         }
 
         public async Task<IActionResult> Details(string url)
@@ -46,7 +46,8 @@ namespace BlogApp.Controllers
             var username = User.FindFirstValue(ClaimTypes.Name);
             var avatar = User.FindFirstValue(ClaimTypes.UserData);
 
-            var entity = new Comment {
+            var entity = new Comment
+            {
                 PostId = PostId,
                 Text = Text,
                 PublishedOn = DateTime.Now,
@@ -54,13 +55,44 @@ namespace BlogApp.Controllers
             };
             _commentRepository.CreateComment(entity);
 
-            return Json(new { 
+            return Json(new
+            {
                 username,
                 Text,
                 entity.PublishedOn,
                 avatar
             });
 
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(PostCreateViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                _postRepository.CreatePost(
+                    new Post
+                    {
+                        Title = model.Title,
+                        Content = model.Content,
+                        Url = model.Url,
+                        UserId = int.Parse(userId ?? ""),
+                        PublishedOn = DateTime.Now,
+                        Image = "1.jpg",
+                        IsActive = false
+                    }
+                );
+                return RedirectToAction("Index");
+
+            }
+            return View(model);
         }
     }
 }
