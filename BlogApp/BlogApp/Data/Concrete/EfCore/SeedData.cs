@@ -42,7 +42,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     context.Posts.AddRange(
                         new Post {
                             Title = "Asp.net core",
-                            Description = "Asp.net core dersleri",
+                            Description = "Asp.net core dersleri açıklaması",
                             Content = "Asp.net core dersleri",
                             Url = "aspnet-core",
                             IsActive = true,
